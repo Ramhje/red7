@@ -1,26 +1,5 @@
 {
-  "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-  "spider": "./sub/jar/a620.jar;md5;09BAF4A03D362D96F0FC14085C343191",
-  "lives": [
-    {
-      "name": "live",
-      "type": 0,
-      "url": "./sub/live/tv.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
   "sites": [
-    {
-      "key": "csp_CZSPP",
-      "name": "🏭小苹果",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
     {
       "key": "t4_公共",
       "name": "📡公共(T4)",
@@ -100,6 +79,15 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
+    },
+    {
+      "key": "csp_CZSPP",
+      "name": "🏭小苹果",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parses": [
